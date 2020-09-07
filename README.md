@@ -100,3 +100,15 @@ https//githib.com/user/repo.git
 # リモートリポジトリの情報を取得
 ~ $ git pull<名前>/<ブランチ名>
 ```
+```bash 
+# リモートリポジトリの詳細情報を取得
+~ $ git remote show <名前>
+~ $ git rmeote show origin
+```
+```bash 
+# リモートリポジトリの名前を変更
+~ $ git remote rename <旧リモート名><新リモート名>
+
+# リモートリポジトリの削除
+~ $ git remote rm <リモート名>
+```
