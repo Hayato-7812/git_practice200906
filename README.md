@@ -113,3 +113,36 @@ https//githib.com/user/repo.git
 # リモートリポジトリの削除
 ~ $ git remote rm <リモート名>
 ```
+# ブランチとのやりとり
+1. ブランチの新規作成と表示
+```bash
+# ブランチの作成
+~ $ git branch <ブランチ名>
+# ex) featureブランチの作成
+~ $ git branch feature
+
+# ブランチの表示
+~ $ git  branch
+
+# リモートのブランチも表示
+~ $ git branch -a
+```
+2. ブランチの切り替え
+```bash
+# ブランチの切り替え
+~ $ git checkout <既存のブランチ名>
+~ $ git checkout -b <既存のブランチ名>
+```
+3. 変更をマージする
+_*マージとは*_他の人の変更内容を自分のブランチに取り込むこと  
+マージには  
+* Fast Forward : 早送りマージ  
+* Auto Merge : 基本的なマージ  
+の２種類がある。
+
+```bash
+~ $ git merge <ブランチ名>
+~ $ git merge <リモート名>/<ブランチ名>
+~$ git merge orogin master
+
+```
