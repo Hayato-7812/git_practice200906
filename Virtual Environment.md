@@ -13,7 +13,7 @@
 
 ```bash
 # flaskという仮想環境を作り、そこにpython3.7をインストール
-~ $ conda create --n flask python=3.7
+~ $ conda create --nameflask python=3.7
 ```
 2. 仮想環境を有効化する
 ```bash 
