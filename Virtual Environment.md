@@ -29,3 +29,6 @@ _* 参照: *_ [pyenvとanacondaを共存させる時のactivate衝突問題の�
 # 仮想環境を無効化
 ~ $ conda deactivate
 ```
+
+# Flaskを使ってWebアプリの開発に挑戦
+仮想環境の構築ができたら、Webアプリの開発に挑戦
