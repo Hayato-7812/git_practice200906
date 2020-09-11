@@ -18,7 +18,7 @@ Git Hub にログインし画面左上の`New`をクリック
 HTTPSのURLをコピー
 ターミナルで以下のコマンドを実行
 ```bash
-$ git remot add origin <URL>
+$ git remote add origin <URL>
 ```
 
 #### リモートリポジトリ が既にある場合
